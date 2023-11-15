@@ -18,7 +18,7 @@
     <h1 style="display:flex;justify-content:center;">Adaugă o carte nouă</h1>
 
     <form action="/books/store" method="POST" >
-        @csrf <!-- Pentru protecția împotriva CSRF -->
+        @csrf 
         <label for="title">Titlu:</label><br>
         <input type="text" id="title" name="title"><br>
 

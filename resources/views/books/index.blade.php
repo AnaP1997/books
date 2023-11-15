@@ -14,7 +14,7 @@
     <h1 style="display:flex;justify-content:center;">Listă cărți</h1>
     <a style="display:flex;justify-content:right;text-decoration:none;color:black;" href="/books/create">Adaugă carte nouă</a>
 
-    <table  style="border:1px solid black;margin-left:200px;">
+    <table  style="margin-left:180px;">
         <thead>
             <tr >
                 <th style="padding:0  350px 0 80px;">Titlu</th>
