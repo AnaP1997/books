@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <title>Adaugă o carte nouă</title>
 </head>
+<style>
+    form{
+        max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+</style>
 <body>
-    <h1>Adaugă o carte nouă</h1>
+    <h1 style="display:flex;justify-content:center;">Adaugă o carte nouă</h1>
 
     <form action="/books/store" method="POST" >
         @csrf <!-- Pentru protecția împotriva CSRF -->
